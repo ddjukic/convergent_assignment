@@ -4,4 +4,4 @@ just..
 
 bash ./run.sh
 
--- you can also bash ./run.sh to first see whats happening
+-- you can also bash ./run.sh to first see whats happening :D 
