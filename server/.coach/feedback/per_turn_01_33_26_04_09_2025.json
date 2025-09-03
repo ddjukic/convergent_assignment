@@ -1,0 +1,83 @@
+[
+  {
+    "ts_ms": 1756942425065,
+    "ts": "01:33:45 04-09-2025",
+    "turn": 1,
+    "interaction": {
+      "customer": "Hello, this is Sarah Chen. I\u2019m a customer and I\u2019 ve just realized my debit card is missing. I need to block it im mediately and get a replacement so I can access my funds.",
+      "representative": "Okay. I understand. So which color was your card?"
+    },
+    "coaching": {
+      "turn_quality_score": 4,
+      "immediate_strengths": [
+        "Acknowledged the customer's urgency"
+      ],
+      "immediate_concerns": [
+        "Lack of empathy, premature focus on irrelevant detail, failed to prioritize immediate needs"
+      ],
+      "next_turn_guidance": "Immediately reassure the customer that you will help them block their card and discuss replacement options.  Follow the bank's protocol for lost/stolen card reporting.  Avoid asking about card color until after the card has been blocked.  Start with: \"Ms. Chen, I understand this is concerning. Let's get your card blocked right away.  Can you please confirm your full name and date of birth for verification?\"",
+      "compliance_check": "warning - Focusing on card color before verifying identity and blocking the card is a compliance risk.  The representative should prioritize security and follow established procedures.",
+      "urgency_level": "high"
+    }
+  },
+  {
+    "ts_ms": 1756942437776,
+    "ts": "01:33:57 04-09-2025",
+    "turn": 2,
+    "interaction": {
+      "customer": "It was a blue card.",
+      "representative": "Is that your favorite color?"
+    },
+    "coaching": {
+      "turn_quality_score": 3,
+      "immediate_strengths": [],
+      "immediate_concerns": [
+        "The representative's response is irrelevant and lacks empathy.  It trivializes the customer's concern. The question 'Is that your favorite color?' is inappropriate and does not advance the resolution process.",
+        "The representative failed to acknowledge the urgency of the situation and the customer's need for immediate access to funds."
+      ],
+      "next_turn_guidance": "Immediately apologize for the inappropriate response.  Then, confirm the card type (credit, debit) and account number to begin the cancellation and replacement process.  Acknowledge the urgency by saying something like, \"I understand this is frustrating, Ms. Chen, and I want to help you get this resolved as quickly as possible.  To start, can you please confirm the type of card and provide your account number?\"",
+      "compliance_check": "warning -  Irrelevant questioning wastes time and could be perceived as unprofessional, potentially impacting customer satisfaction.",
+      "urgency_level": "high"
+    }
+  },
+  {
+    "ts_ms": 1756942448868,
+    "ts": "01:34:08 04-09-2025",
+    "turn": 3,
+    "interaction": {
+      "customer": "What does that matter? I don\u2019t have time for this. Please, just block my card immediately and arrange for a replacement. My kids are waiting, and I need to get groceries now!",
+      "representative": "What are you gonna buy?"
+    },
+    "coaching": {
+      "turn_quality_score": 2,
+      "immediate_strengths": [],
+      "immediate_concerns": [
+        "The representative's response is inappropriate and unprofessional.  Asking \"What are you gonna buy?\" is intrusive, irrelevant to the card blocking process, and dismissive of the customer's urgency. It lacks empathy and focuses on the wrong aspect of the situation. The representative failed to acknowledge the customer's stress and concern for her children."
+      ],
+      "next_turn_guidance": "Immediately apologize for the inappropriate question. Reassure the customer that their card will be blocked immediately.  Confirm their address for the replacement card delivery. Offer expedited delivery options if available.  Emphasize understanding their urgency and the importance of getting this resolved quickly. For example:  \"I sincerely apologize for that question; it was completely inappropriate. I understand you're in a difficult situation and need this resolved immediately. Let's get this taken care of right away. I'm blocking your card now. To ensure you receive your replacement card as quickly as possible, could you please confirm your current mailing address?\"",
+      "compliance_check": "fail - The representative's response is unprofessional and potentially violates customer service standards.  It shows a lack of empathy and professionalism.",
+      "urgency_level": "high"
+    }
+  },
+  {
+    "ts_ms": 1756942486992,
+    "ts": "01:34:46 04-09-2025",
+    "turn": 4,
+    "interaction": {
+      "customer": "I need to buy dinner for my family tonight\u2014some groceries and essentials. Please, I don\u2019t have time to discuss this\u2014I just need my card blocked so I can access my funds!",
+      "representative": "Okay. How about if I actually process this request for you? I can forward this to my colleague and he will I can call you back to make sure that you have correctly processed the get your card getting lost. So that the police does not have to process this as a criminal case. And then we will get you a new card ASAP."
+    },
+    "coaching": {
+      "turn_quality_score": 4,
+      "immediate_strengths": [
+        "Offered a solution (blocking the card)"
+      ],
+      "immediate_concerns": [
+        "Lack of clarity and professionalism; confusing and rambling response; unnecessary mention of police involvement;  failed to directly address customer's need for immediate access to funds; grammatically incorrect and poorly structured sentences."
+      ],
+      "next_turn_guidance": "Start by acknowledging the urgency and stress.  Then clearly state: 'Ma'am, I understand you need to access your funds urgently. I'm going to immediately block your card to prevent unauthorized use.  I will then explain the process for getting a replacement card as quickly as possible.  We can discuss alternative access methods in the meantime, such as a temporary card or accessing funds through online banking. Can you confirm your name and date of birth for verification?'",
+      "compliance_check": "warning -  Unnecessary mention of police involvement could cause undue alarm and is not standard procedure for a lost card.",
+      "urgency_level": "high"
+    }
+  }
+]

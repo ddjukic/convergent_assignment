@@ -1,0 +1,24 @@
+[project]
+name = "pipecat-client-server-example"
+version = "0.1.0"
+description = "Client/server web example using Pipecat"
+requires-python = ">=3.10"
+dependencies = [
+    "pipecat-ai[webrtc,silero,deepgram,openai,elevenlabs,runner,tracing]>=0.0.82",
+    "google-genai>=0.3.0",
+    "google-generativeai>=0.8.5",
+    "python-dotenv>=1.0.1",
+    "opentelemetry-exporter-otlp-proto-http>=1.0.0",
+    "langfuse>=2.0.0",
+    "openinference-instrumentation-google-genai>=0.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff~=0.12.1",
+]
+
+[tool.ruff]
+line-length = 100
+[tool.ruff.lint]
+select = ["I"]

@@ -1,0 +1,296 @@
+[
+  {
+    "ts_ms": 1756942416021,
+    "ts": "01:33:36 04-09-2025",
+    "role": "assistant",
+    "content": "Hello, this is Sarah Chen. I\u2019m a customer and I\u2019 ve just realized my debit card is missing. I need to block it im mediately and get a replacement so I can access my funds.",
+    "is_interim": false
+  },
+  {
+    "ts_ms": 1756942416535,
+    "ts": "01:33:36 04-09-2025",
+    "role": "user",
+    "content": "Okay. I",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942417540,
+    "ts": "01:33:37 04-09-2025",
+    "role": "user",
+    "content": "Okay. I understand. So",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942418362,
+    "ts": "01:33:38 04-09-2025",
+    "role": "user",
+    "content": "Okay. I understand. So",
+    "is_interim": false
+  },
+  {
+    "ts_ms": 1756942419366,
+    "ts": "01:33:39 04-09-2025",
+    "role": "user",
+    "content": "which color",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942420359,
+    "ts": "01:33:40 04-09-2025",
+    "role": "user",
+    "content": "which color was your card?",
+    "is_interim": false
+  },
+  {
+    "ts_ms": 1756942423090,
+    "ts": "01:33:43 04-09-2025",
+    "role": "assistant",
+    "content": "It was a blue card.",
+    "is_interim": false
+  },
+  {
+    "ts_ms": 1756942425000,
+    "ts": "01:33:45 04-09-2025",
+    "role": "user",
+    "content": "Is",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942426005,
+    "ts": "01:33:46 04-09-2025",
+    "role": "user",
+    "content": "Is that your favorite color?",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942426102,
+    "ts": "01:33:46 04-09-2025",
+    "role": "user",
+    "content": "Is that your favorite color?",
+    "is_interim": false
+  },
+  {
+    "ts_ms": 1756942435882,
+    "ts": "01:33:55 04-09-2025",
+    "role": "assistant",
+    "content": "What does that matter? I don\u2019t have time for this. Please, just block my card immediately and arrange for a replacement. My kids are waiting, and I need to get groceries now!",
+    "is_interim": false
+  },
+  {
+    "ts_ms": 1756942436822,
+    "ts": "01:33:56 04-09-2025",
+    "role": "user",
+    "content": "What are you gonna buy?",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942436842,
+    "ts": "01:33:56 04-09-2025",
+    "role": "user",
+    "content": "What are you gonna buy?",
+    "is_interim": false
+  },
+  {
+    "ts_ms": 1756942446631,
+    "ts": "01:34:06 04-09-2025",
+    "role": "assistant",
+    "content": "I need to buy dinner for my family tonight\u2014some groceries and essentials. Please, I don\u2019t have time to discuss this\u2014I just need my card blocked so I can access my funds!",
+    "is_interim": false
+  },
+  {
+    "ts_ms": 1756942452259,
+    "ts": "01:34:12 04-09-2025",
+    "role": "user",
+    "content": "Okay.",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942453289,
+    "ts": "01:34:13 04-09-2025",
+    "role": "user",
+    "content": "How about if",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942454264,
+    "ts": "01:34:14 04-09-2025",
+    "role": "user",
+    "content": "Okay. How about if I actually",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942455271,
+    "ts": "01:34:15 04-09-2025",
+    "role": "user",
+    "content": "Okay. How about if I actually process this request?",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942456261,
+    "ts": "01:34:16 04-09-2025",
+    "role": "user",
+    "content": "Okay. How about if I actually process",
+    "is_interim": false
+  },
+  {
+    "ts_ms": 1756942456282,
+    "ts": "01:34:16 04-09-2025",
+    "role": "user",
+    "content": "this request for you? I can",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942457277,
+    "ts": "01:34:17 04-09-2025",
+    "role": "user",
+    "content": "this request for you? I can forward this to my",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942458001,
+    "ts": "01:34:18 04-09-2025",
+    "role": "user",
+    "content": "this request for you? I can forward this to my colleague",
+    "is_interim": false
+  },
+  {
+    "ts_ms": 1756942459011,
+    "ts": "01:34:19 04-09-2025",
+    "role": "user",
+    "content": "and he will",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942459998,
+    "ts": "01:34:19 04-09-2025",
+    "role": "user",
+    "content": "and he will I can call you back",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942460999,
+    "ts": "01:34:20 04-09-2025",
+    "role": "user",
+    "content": "and he will I can call you back to make sure",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942461327,
+    "ts": "01:34:21 04-09-2025",
+    "role": "user",
+    "content": "and he will I can call you back to make sure",
+    "is_interim": false
+  },
+  {
+    "ts_ms": 1756942462295,
+    "ts": "01:34:22 04-09-2025",
+    "role": "user",
+    "content": "that you have",
+    "is_interim": false
+  },
+  {
+    "ts_ms": 1756942463269,
+    "ts": "01:34:23 04-09-2025",
+    "role": "user",
+    "content": "correctly processed",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942464261,
+    "ts": "01:34:24 04-09-2025",
+    "role": "user",
+    "content": "correctly processed the",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942464365,
+    "ts": "01:34:24 04-09-2025",
+    "role": "user",
+    "content": "correctly processed the",
+    "is_interim": false
+  },
+  {
+    "ts_ms": 1756942466721,
+    "ts": "01:34:26 04-09-2025",
+    "role": "user",
+    "content": "get your card getting",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942467240,
+    "ts": "01:34:27 04-09-2025",
+    "role": "user",
+    "content": "get your card getting lost.",
+    "is_interim": false
+  },
+  {
+    "ts_ms": 1756942468236,
+    "ts": "01:34:28 04-09-2025",
+    "role": "user",
+    "content": "So that",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942469240,
+    "ts": "01:34:29 04-09-2025",
+    "role": "user",
+    "content": "So that the police does not have",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942469823,
+    "ts": "01:34:29 04-09-2025",
+    "role": "user",
+    "content": "So that the police does not have to",
+    "is_interim": false
+  },
+  {
+    "ts_ms": 1756942470802,
+    "ts": "01:34:30 04-09-2025",
+    "role": "user",
+    "content": "process the",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942471834,
+    "ts": "01:34:31 04-09-2025",
+    "role": "user",
+    "content": "process this as a criminal case.",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942471871,
+    "ts": "01:34:31 04-09-2025",
+    "role": "user",
+    "content": "process this as a criminal case.",
+    "is_interim": false
+  },
+  {
+    "ts_ms": 1756942472843,
+    "ts": "01:34:32 04-09-2025",
+    "role": "user",
+    "content": "And then we will get",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942473847,
+    "ts": "01:34:33 04-09-2025",
+    "role": "user",
+    "content": "And then we will get you a new car",
+    "is_interim": true
+  },
+  {
+    "ts_ms": 1756942474510,
+    "ts": "01:34:34 04-09-2025",
+    "role": "user",
+    "content": "And then we will get you a new card ASAP.",
+    "is_interim": false
+  },
+  {
+    "ts_ms": 1756942484931,
+    "ts": "01:34:44 04-09-2025",
+    "role": "assistant",
+    "content": "Listen, I don\u2019t have time for this. My card is lost, my kids are waiting, and I need to access my money now. Please just block my card immediately and send me a new one\u2014no delays!",
+    "is_interim": false
+  }
+]
