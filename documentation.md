@@ -192,6 +192,7 @@ Manages all conversation artifacts:
    - No graceful degradation if coach service fails -> with more time would probably implement a more robust custom llm inference service with retries, and a backup model/provider -> quite relevant
    - Missing retries for transient API failures
    - Limited error context in logs
+   - With more time, would opt to create a custom LLM inference block using OpenRouter, configured to have fallover to alternatives - in which case the chance of service interruptions go down to zero practically
 
 6. **Session Evaluation**
    - Mainly what id implement with more time:
