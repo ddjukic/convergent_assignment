@@ -197,6 +197,15 @@ Manages all conversation artifacts:
    - The post-session evaluation - would make a RAG on top of all the evaluations & transcripts so far, so that the user can easily extract all the behavioral patterns they seem to have
    - Maybe make a dashboard for this -> on the fly create kindof kpis for improving particular segments of users performance to motivate the user
    - Maybe make a 'learning mode' - where two LLMs are talking autonomously, so that the user can just listen in and learn how a perfect conversation would sound, pick up some tips
+     
+7. **Voice / Emotion / Avatar**
+   - Emotion-aware avatars would be fairly easy to add with pipecat -> see https://docs.pipecat.ai/server/services/video/simli
+   - Mapping the gender to the personas can of course be done manually, or randomly based on the available voices - currently the voice id is hard-coded, but likely not a problem
+   - The Coach could be easily extended to also continuously evaluate the emotions of the simulation based on the sentiment & the flow, return as structured output - use to drive the avatar or voice behavior
+
+8. **Tool use / RAG / etc.**
+   - Also easy to implement in the current solution via https://docs.pipecat.ai/guides/learn/function-calling#function-calling
+   - I chose not to push for this 'add-on' criteria because it felt somewhat contrived to be receiving files mid phone call, but yeah - pushing a file to a folder and having a function being called to read it, not too challenging to implement
 
 ## Session Artifacts
 
