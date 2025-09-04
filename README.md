@@ -2,6 +2,6 @@
 
 just.. 
 
-bash ./run.sh
+'bash ./run.sh'
 
--- you can also bash ./run.sh to first see whats happening :D 
+-- you can also 'bash ./run.sh --help' to first see whats happening :D 
