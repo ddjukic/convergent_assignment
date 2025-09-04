@@ -82,6 +82,8 @@ All prompts are managed in a single versioned JSON file (`/docs/prompts.json`) w
 
 ### Prompt Types
 
+--> All inspired by: [LearnLM](https://ai.google.dev/gemini-api/docs/learnlm)
+
 1. **Persona Prompts** (`entity: "simulation_customer"`)
    - Define customer personalities and scenarios
    - Include backstory, emotional state, key phrases
@@ -91,6 +93,7 @@ All prompts are managed in a single versioned JSON file (`/docs/prompts.json`) w
    - System prompts for Gemini coach
    - Evaluation schemas (turn-by-turn and end-to-end)
    - Scoring rubrics and coaching philosophy
+   - Scoring Examples 
 
 3. **Guardrail Patterns** (`entity: "guardrail"`)
    - Off-topic detection patterns
@@ -143,6 +146,7 @@ Ensures personas stay in character by:
 - **Lazy initialization**: Coach starts on first evaluation need
 - **Debouncing**: Prevents duplicate evaluations
 - **Structured output**: JSON schemas for consistent scoring
+- **Post-Session evaluation**: Parses the entire transcript and explains whats good whats not good 
 
 ### 4. Session Logger
 Manages all conversation artifacts:
