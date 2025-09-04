@@ -181,6 +181,8 @@ Manages all conversation artifacts:
 4. **Logging**
    - Might be a bit messsy with inconsistent terminology (customer vs assistant, user vs representative)
    - Makes troubleshooting more difficult, but, tracing is there so - its not all bad
+   - The tracing isnt enabled for the gemini-based Coach model, the out of the box langfuse integration / instrumentation didnt work - possibly clashing in the configs with the pipecat integration -> since that was kindof more important, i left it at that;
+   -- It is likely an easy fix; I did get manually the tracing to run of course, but the proper price tracking wasn't clicking
 
 5. **Error Recovery**
    - No graceful degradation if coach service fails -> with more time would probably implement a more robust custom llm inference service with retries, and a backup model/provider -> quite relevant
