@@ -183,6 +183,7 @@ Manages all conversation artifacts:
    - Makes troubleshooting more difficult, but, tracing is there so - its not all bad
    - The tracing isnt enabled for the gemini-based Coach model, the out of the box langfuse integration / instrumentation didnt work - possibly clashing in the configs with the pipecat integration -> since that was kindof more important, i left it at that;
    -- It is likely an easy fix; I did get manually the tracing to run of course, but the proper price tracking wasn't clicking
+   - Given more time, i would implement prompt management via langfuse as well to have everything centralised, but prompt versioning in a json-based library did the job.
 
 5. **Error Recovery**
    - No graceful degradation if coach service fails -> with more time would probably implement a more robust custom llm inference service with retries, and a backup model/provider -> quite relevant
