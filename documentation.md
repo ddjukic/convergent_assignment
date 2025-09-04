@@ -20,6 +20,8 @@
 
 - LLM: OpenAI GPT-4.1-nano 
 --> fast, cost-effective, capable enough for the task
+- Conversation memory management:
+--> context aggregator service; no long-term memory or persistance - would be easy to include but i didnt see the value until the user works with the system for a longer time (see further down behavioral patterns analysis suggestions implementation)
 
 - TTS: ElevenLabs
 --> great voices, easy to work with
