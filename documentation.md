@@ -178,7 +178,7 @@ Manages all conversation artifacts:
    - Assumes rigid alternating communication pattern between user & simulation llm
    - No caching, or some long term memory of the users performance from before that would improve guidance and anticipate errors -> something to implement with more time; would be relatively simple to implement, for example, mem0 to learn the users behavioral pattern and try avoiding errors before they happen
    - Would make intelligent in the sense that it doesnt matter who speaks first, the llm or the user
-   - Would provide a 'window' parameter to take into consideration wider context
+   - Would provide a 'window' parameter to take into consideration wider context, more previous messages & trends (currently evaluates pairs of (user,llm) messages)
 
 4. **Logging**
    - Might be a bit messsy with inconsistent terminology (customer vs assistant, user vs representative)
